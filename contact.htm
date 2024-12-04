@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Detail goude</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.jpeg" class="logo" alt="logo">
+              </div>
+              <nav>
+                <ul>
+                    <li><a href="./home.htm">Home</a></li>
+                    <li><a href="./Apropos.htm">A Propos</a></li>
+                    <li><a href="./produits.htm">Nos produits</a></li>
+                    <li><a href="./garantie.htm">Garantie</a></li>
+                    <li><a href="./faq.htm">Faq</a></li>
+                    <li><a href="./contact.htm">Contactez-nous</a></li>
+                    <li class="panier-container">
+                        <a href="./panier.htm">
+                            <img src="img/panier.png" style="width: 20px;" alt="Panier">
+                            <span class="badge" id="cart-badge">0</span>
+                        </a>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+            <hr />
+    </header>
+    <main>
+
+        <section class="page">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+           </section> 
+        </main>
+
+        
+    <footer>
+        <p>&copy; 2023. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

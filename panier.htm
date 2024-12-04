@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.jpeg" class="logo" alt="logo">
+          </div>
+        <nav>
+            <ul>
+                <li><a href="./home.htm">Home</a></li>
+                <li><a href="./Apropos.htm">A Propos</a></li>
+                <li><a href="./produits.htm">Nos produits</a></li>
+                <li><a href="./garantie.htm">Garantie</a></li>
+                <li><a href="./faq.htm">Faq</a></li>
+                <li><a href="./contact.htm">Contactez-nous</a></li>
+                <li class="panier-container">
+                    <a href="./panier.htm">
+                        <img src="img/panier.png" style="width: 20px;" alt="Panier">
+                        <span class="badge" id="cart-badge">0</span>
+                    </a>
+                </li>
+          </nav>
+        </div>
+        <hr />
+</header>
+    <main style="margin: auto;">
+      <h1>Votre Panier</h1>
+        <div id="cart-items"></div>
+        <h3 id="cart-total"></h3>
+    </main>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
